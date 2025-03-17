@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# Anime Social App Creator Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a demo for an AI-guided platform that helps non-technical users create custom anime social networking apps through a guided conversation flow.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This demo showcases the conversation flow component of a larger platform that will allow users to create custom social networking apps without coding knowledge. The focus is on anime community apps for this demo.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Guided conversation flow to collect app requirements
+- Step-by-step interface with different question types
+- Support for text input, single choice, multiple choice, and confirmation questions
+- Dynamic flow navigation based on user answers
+- Summary view of all selections before app generation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js 14.x or later
+- npm or yarn
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/anime-social-app-demo.git
+cd anime-social-app-demo
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-### `npm run eject`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `src/types/` - TypeScript type definitions
+- `src/data/` - Conversation flow data
+- `src/components/` - React components
+- `src/pages/` - Next.js pages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Tech Stack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- TypeScript
+- React
+- Next.js
+- Tailwind CSS (for styling)
 
-## Learn More
+## Next Steps
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This demo is the first step toward building a full AI-guided app creation platform. Future developments will include:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Backend API for app generation
+- Real-time preview of the app being created
+- Code generation for React Native apps
+- Deployment and hosting options
+
+## License
+
+[MIT](LICENSE)
